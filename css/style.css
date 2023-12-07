@@ -1,0 +1,413 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+
+}
+
+h1 {
+    font-family: 'Alfa Slab One', sans-serif;
+}
+
+h2,h3,h4,h5,h6{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.header-section {
+    width: 100%;
+    background: url(../img/bg.png) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 30px;
+}
+
+.container {
+    width: 1140px;
+}
+.img-p {
+    margin-left: 322px;
+    margin-top: -17px;
+}
+
+.img-p img{
+   margin-bottom: -43px;
+   margin-left:  227px;
+
+}
+.img-p p {
+    font-size: 14px;
+    font-weight: 300;
+    display: inline-block;
+    font-family: 'Montserrat';
+    margin-left: 275px;
+}
+.menu{
+    float: right;
+    margin: 25px;
+    margin-top: 8px;
+
+}
+
+.menu ul {
+    font-family: 'Bebas Neue';
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left:  25px;
+}
+
+.header-part {
+    width: 100%;
+   margin-top: 45px;
+}
+
+.header-part span {
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 3px dashed #000;
+    padding: 4px 8px;
+    font-family: 'Bebas Neue';
+}
+
+.header-part h1 {
+    text-transform: uppercase;
+    font-size: 114px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.header-part h3 {
+    text-transform: uppercase;
+    margin-top: -13px;
+    font-weight: 600;
+    font-size: 90px;
+}
+
+.img {
+    text-align: right;
+    margin-top: 30px;
+}
+.img img {
+    width: 67%;
+    margin-top: -559px;
+    margin-right: -38px;
+}
+
+.feature-section{
+   width: 100%;
+   padding: 50px 0px;
+  
+}
+
+
+
+.feature-section .item{
+    position: relative;
+    margin-bottom: 31px;
+}
+
+.feature-section .content{
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+
+.feature-section .content h2{
+    color: white;
+}
+
+.feature-section .content p{
+    color: white;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 1px;
+}
+
+.product-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.product-section h3{
+    
+}
+
+.product-section .inner-part{
+    text-align: center;
+
+}
+
+.inner-part img{
+
+}
+
+.inner-part h2 {
+    margin-top: 26px;
+}
+.inner-part p {
+    font-weight: 400;
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+
+.product-section .head {
+    text-align: center;
+    margin-top: -110px;
+    margin-bottom: 64px;
+}
+
+.head h3 {
+    background: #E8BC24;
+    margin: 26px 446px;
+}
+.head h1{
+
+}
+
+.head span {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.product-section .inner-part .cus-btn{
+    border-radius: 0px;
+    background: #ff0000;
+    border-color: #ff0000;
+} 
+
+.slide-section{
+    width: 100%;
+    padding: 80px;
+    
+}
+
+.cus-shadow{
+    padding: 25px;
+    box-shadow: rgba(149, 157, 165, 0.2) 8px 8px 24px;
+}
+
+.slide-section .img-part img{
+    width: 100%;
+    height: auto;
+   
+}
+
+.form-section{
+    width: 100%;
+    background: url(../img/im9.png) center top no-repeat;
+    background-size: cover;
+    height:114vh;
+    padding-top: 30px;
+    margin-top: 35px;
+}
+.content-part {
+    margin-left: 121px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.content-part h6 {
+    margin-left: -8px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.content-part h2 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Alfa Slab One';
+    text-transform: capitalize;
+    color:#3d2514;
+}
+
+.form-1{
+    margin-left: 355px;
+
+}
+.form-1 ul {
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Alfa Slab One';
+}
+
+.form-1 ul li{
+    list-style-type: none;
+}
+
+
+.form-1 ul li input{
+    margin-bottom: 23px;
+    padding: 9px 4px;
+}
+.form-2 {
+    margin-left: 31px;
+}
+
+.form-2 ul{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Alfa Slab One';
+}
+
+.form-2 ul li{
+    list-style-type: none;
+}
+.form-2 ul li input {
+    margin-bottom: 24px;
+    padding: 9px 9px;
+}
+.form-2 ul button {
+    width: 49%;
+    color: #fff;
+    background: crimson;
+    border: crimson;
+    font-size: 19px;
+    font-weight: 500;
+    padding: 6px 0px;
+}
+
+    
+.footer-section{
+    background: url(../img/bbg.png) center center no-repeat ;
+    background-size: cover;
+    padding: 0px;
+    margin: 54px;
+}
+
+.container{
+    width: 1140px;
+    margin: 0;
+}
+
+.bg{
+  
+}
+
+.f-part p {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-left: 122px;
+}
+
+
+.f-part{
+    margin-top: 40px;
+    margin-left: -96px;
+}
+
+.f-part img {
+    margin-bottom: 40px;
+    margin-left: 105px;
+}
+
+.location {
+    margin-bottom: 290px;
+    text-align: end;
+    margin-right: 107px;
+}
+
+.location .top{
+   padding-left: 80px;
+   margin-right: -70px;
+}
+
+.location .top span{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+   
+}
+
+.location .top a i{
+    color: #fff;
+    font-size: 22px;
+    margin-left: 3px;
+    margin-right:17px;
+}
+
+.location .bottom{
+    margin-top: 15px;
+    padding-left: 90px;
+    margin-left: 7px;
+}
+
+
+
+.location .bottom a{
+
+}
+
+.overlay{
+
+}
+
+.location .bottom a i{
+    color: #fff;
+    font-size: 20px;
+    margin-right: 15px;
+
+}
+
+.location .bottom span{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: -11px;
+ 
+}
+
+.last{
+
+}
+
+.last span {
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 8px;
+}
+
+.icon{
+}
+.icon ul {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 34px;
+    margin-left: 397px;
+}
+
+.icon ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px 10px;
+    color:  #fff;
+}
+
+.icon ul li a i {
+    color: #fff;
+    font-size: 20px;
+    
+}
+
+
+
+
+
+
